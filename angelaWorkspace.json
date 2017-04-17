@@ -18,7 +18,18 @@
             "\u4e2d\u56fd\u4e2d\u56fd"
           ],
           "updated": "2017-04-17T07:53:36.422Z",
-          "value": "\u4e2d\u56fd"
+          "value": "中国"
+        },
+        {
+          "metadata": null,
+          "created": "2017-04-17T07:53:36.422Z",
+          "synonyms": [
+            "美利坚合众国",
+            "美帝",
+            "US"
+          ],
+          "updated": "2017-04-17T07:53:36.422Z",
+          "value": "美国"
         }
       ],
       "entity": "\u56fd\u5bb6",
