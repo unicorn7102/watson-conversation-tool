@@ -1,0 +1,36 @@
+{
+  "counterexamples": [],
+  "created": "2017-04-17T07:24:31.429Z",
+  "description": "command-line mode test: python-sdk",
+  "status": "Available",
+  "entities": [
+    {
+      "source": null,
+      "type": null,
+      "created": "2017-04-17T07:53:36.422Z",
+      "open_list": null,
+      "values": [
+        {
+          "metadata": null,
+          "created": "2017-04-17T07:53:36.422Z",
+          "synonyms": [
+            "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd",
+            "\u4e2d\u56fd\u4e2d\u56fd"
+          ],
+          "updated": "2017-04-17T07:53:36.422Z",
+          "value": "\u4e2d\u56fd"
+        }
+      ],
+      "entity": "\u56fd\u5bb6",
+      "description": null,
+      "updated": "2017-04-17T07:53:36.422Z"
+    }
+  ],
+  "intents": [],
+  "language": "zh-cn",
+  "metadata": null,
+  "updated": "2017-04-17T07:53:36.422Z",
+  "workspace_id": "4a904138-9f99-411a-898d-f2adcc083e28",
+  "name": "\u5173\u4e91\u957f",
+  "dialog_nodes": []
+}

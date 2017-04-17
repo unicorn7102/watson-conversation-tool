@@ -6,7 +6,7 @@
 # Manage workspaces for IBM Watson Conversation service on IBM Bluemix.
 # See the README for documentation.
 #
-
+# coding=utf-8
 import json, argparse
 from os.path import join, dirname
 from watson_developer_cloud import ConversationV1
@@ -62,7 +62,7 @@ def getSaveWorkspace(workspaceID,outFile):
     ws=conversation.get_workspace(workspace_id=workspaceID,export=True)
     with open(outFile,'w') as jsonFile:
         json.dump(ws, jsonFile, indent=2)
-    print "Workspace saved to " + outFile
+    print ("Workspace saved to " + outFile)
 
 
 # Update a workspace
@@ -112,7 +112,7 @@ def updateWorkspace(workspaceID,
                                     dialog_nodes=payload['dialog_nodes'],
                                     counterexamples=payload['counterexamples'],
                                     metadata=payload['metadata'])
-    print "Workspace updated - new workspace"
+    print ("Workspace updated - new workspace")
     print(json.dumps(ws, indent=2))
 
 # Create a new workspace
@@ -132,14 +132,14 @@ def createWorkspace(newName, newDescription, newLang, inFile):
 # Delete a workspaceID
 def deleteWorkspace(workspaceID):
     conversation.delete_workspace(workspaceID)
-    print "Workspace deleted"
+    print ("Workspace deleted")
 
 #
 # Main program, for now just detect what function to call and invoke it
 #
 if __name__ == '__main__':
     parms = getParameters()
-    print parms
+    print (parms)
     if (parms.listWorkspaces):
         listWorkspaces()
     if (parms.getWorkspace and parms.workspaceID):
